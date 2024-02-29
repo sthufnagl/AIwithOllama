@@ -19,7 +19,7 @@ def load_or_create_dataframe(filename):
 df = load_or_create_dataframe('image_descriptions.csv')
 
 def get_png_files(folder_path):
-    return glob.glob(f"{folder_path}/*.png")
+    return glob.glob(f"{folder_path}/*.jpg")
 
 # get the list of image files in the folder yopu want to process
 image_files = get_png_files("./images") 
@@ -39,7 +39,7 @@ def process_image(image_file):
 
     full_response = ''
     # Generate a description of the image
-    for response in generate(model='llava:13b-v1.6', 
+    for response in generate(model='llava:34b', 
                              prompt='describe this image and make sure to include anything notable about it (include text you see in the image):', 
                              images=[image_bytes], 
                              stream=True):

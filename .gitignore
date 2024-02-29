@@ -9,11 +9,13 @@ __pycache__/
 # Distribution / packaging
 .Python
 build/
+.csv/
 develop-eggs/
 dist/
 downloads/
 eggs/
 .eggs/
+images/
 lib/
 lib64/
 parts/
@@ -158,3 +160,7 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+images/CIMG1810.JPG
+images/download.jpg
+images/IMG0059_2.jpg
+image_descriptions.csv
