@@ -1,4 +1,4 @@
-# Create a description of an Image and store it together wirh EXIF Information in a CSV FIle
+# Create a description of an Image and store it together with EXIF and Location Information in a CSV FIle
 
 ## Based on https://www.youtube.com/watch?v=BvHwpHprpos&t=293s
 
