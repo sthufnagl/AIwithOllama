@@ -1,10 +1,12 @@
 # Import modules
-from llama_index.llms import Ollama
+from llama_index.llms.ollama import Ollama
+from langchain.schema.cache import BaseCache
 from pathlib import Path
 import chromadb
-from llama_index import VectorStoreIndex, ServiceContext, download_loader
-from llama_index.storage.storage_context import StorageContext
+from llama_index.core import VectorStoreIndex, ServiceContext, download_loader
+from llama_index.core import StorageContext
 from llama_index.vector_stores.chroma import ChromaVectorStore
+
 
 # Load CSV data
 SimpleCSVReader = download_loader("SimpleCSVReader")

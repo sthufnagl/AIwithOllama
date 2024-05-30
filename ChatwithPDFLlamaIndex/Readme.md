@@ -4,5 +4,9 @@
 
 ## Requirements:
 
-pip install llama-index==0.8.35 llama-hub pypdf
+conda create -n ChatWithPDF python=3.11
+conda activate ChatWithPDF
+pip install llama-index llama-hub pypdf
+pip install llama-index-llms-ollama
+pip install llama-index-embeddings-huggingface
 

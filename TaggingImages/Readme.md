@@ -5,3 +5,6 @@
 ## Set the remote Ollama Server:
 With Powershell:
 $env:OLLAMA_HOST = '192.168.0.108'
+
+or with CMD:
+set OLLAMA_HOST=192.168.0.28
